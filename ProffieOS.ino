@@ -2,7 +2,7 @@
  ProffieOS: Control software for lightsabers and other props.
  http://fredrik.hubbe.net/lightsaber/teensy_saber.html
  Copyright (c) 2016-2019 Fredrik Hubinette
- Additional copyright holders listed inline below.
+ Additional copyright holders listed inline below.7.14
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -39,7 +39,7 @@
 // #define CONFIG_FILE "config/proffieboard_v2_testing_config.h"
 // #define CONFIG_FILE "config/td_proffieboard_config.h"
 // #define CONFIG_FILE "config/proffieboard_v1_graflex.h"
-// #define CONFIG_FILE "config/teensy_audio_shield_micom.h"
+#define CONFIG_FILE "config/teensy_audio_shield_engage.h"
 // #define CONFIG_FILE "config/proffieboard_v2_ob4.h"
 // #define CONFIG_FILE "config/testconfig.h"
 // #define CONFIG_FILE "config/test_bench_config.h"
@@ -235,7 +235,7 @@ SnoozeTouch snooze_touch;
 SnoozeBlock snooze_config(snooze_touch, snooze_digital, snooze_timer);
 #endif
 
-const char version[] = "$Id: ce12a06a1e236b5101ec60c950530a9a4719a74d $";
+const char version[] = "v7.14";
 
 #include "common/common.h"
 #include "common/state_machine.h"

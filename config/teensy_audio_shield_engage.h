@@ -2,7 +2,7 @@
 #include "teensy_audio_board_rev_d.h"
 #define NUM_BLADES 0
 #define NUM_BUTTONS 8
-#define VOLUME 0050
+#define VOLUME 1700
 const unsigned int maxLedsPerStrip = 144;
 #define CLASH_THRESHOLD_G 2.0
 #define ENABLE_AUDIO
